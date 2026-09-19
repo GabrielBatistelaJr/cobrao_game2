@@ -1,0 +1,26 @@
+# COBRÃO GAME
+
+Uma versão jogo da cobrinha (Snake) desenvolvida em Python e Pygame, utilizando **Interpolação Linear (Lerp)** para proporcionar uma movimentação contínua e fluida, sem perder a mecânica tradicional baseada em grade (grid).
+
+##Sobre o Jogo
+
+O objetivo é coletar o máximo de comida possível para aumentar a pontuação e o tamanho da cobra. Conforme a cobra cresce, a velocidade de movimentação lógica aumenta, tornando o jogo mais desafiador.
+
+### Diferencial Técnico
+Diferente das versões tradicionais do Snake onde os blocos "pulam" de célula em célula, este projeto separa a **lógica do jogo** (tick rate) da **renderização gráfica** , calculando a posição exata de cada segmento entre dois pontos em tempo real através do algoritmo de Lerp.
+
+---
+
+## Pré-requisitos
+
+- **Python 3.x** instalado na máquina.
+- Biblioteca **Pygame**.
+
+---
+
+##Como Executar o Jogo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/GabrielBatistelaJr/cobrao_game.git](https://github.com/GabrielBatistelaJr/cobrao_game.git)
+   cd cobrao_game
